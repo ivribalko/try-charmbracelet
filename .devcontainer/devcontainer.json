@@ -1,0 +1,15 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/go:0-1.19",
+	"features": {
+		"ghcr.io/meaningful-ooo/devcontainer-features/fish:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"go.toolsManagement.checkForUpdates": "local",
+				"go.useLanguageServer": true,
+				"go.gopath": "/go"
+			}
+		}
+	}
+}
