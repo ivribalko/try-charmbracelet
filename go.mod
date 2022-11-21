@@ -2,7 +2,11 @@ module github.com/ivribalko/try-charmbracelet
 
 go 1.19
 
-require github.com/charmbracelet/bubbletea v0.23.1
+require (
+	github.com/charmbracelet/bubbles v0.14.0
+	github.com/charmbracelet/bubbletea v0.23.1
+	github.com/charmbracelet/lipgloss v0.5.0
+)
 
 require (
 	github.com/aymanbagabas/go-osc52 v1.0.3 // indirect
